@@ -14,7 +14,7 @@ function output()
         }
     };
     client.open("POST", "http://localhost:8081/L2_war_exploded/OutputServlet?", true);
-    client.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    client.setRequestHeader("Content-type", "application/json-application");
     client.send("");
 }
 
